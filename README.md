@@ -3,8 +3,6 @@
 A sleek, modern developer portfolio template built with **Tailwind CSS**.  
 Perfect for showcasing your skills, resume, and featured projects in a minimalist dark/light theme.
 
-🔗 **Live Demo:** [https://idyllic-fairy-4ba784.netlify.app](https://idyllic-fairy-4ba784.netlify.app)
-
 ---
 
 ## 💡 Features
