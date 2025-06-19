@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Portfolio – Dev</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font: Inter from Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom font config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+  <body class="bg-gray-900 text-white font-inter flex items-center justify-center min-h-screen px-4">
+  <div class="text-center space-y-4 max-w-md">
+    <h1 class="text-4xl font-bold animate-fade-in">John Developer</h1>
+    <p class="text-lg text-gray-400">Fullstack Dev · TUM Student · Freelancer</p>
+
+    <div class="space-x-4">
+      <a href="https://github.com/" class="text-blue-400 hover:text-blue-300">GitHub</a>
+      <a href="https://linkedin.com/" class="text-blue-400 hover:text-blue-300">LinkedIn</a>
+      <a href="resume.pdf" class="text-blue-400 hover:text-blue-300">Resume</a>
+    </div>
+
+    <a href="resume.pdf" download class="inline-block mt-6 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md font-semibold">
+      Download Resume
+    </a>
+  </div>
+</body>
+
+</html>
